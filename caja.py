@@ -20,8 +20,9 @@ while (menu == True):
 	print("3. comprar un producto")
 	print("4. salir")
 
-	op = input("ingrese opcion: ")
-	if op == 1:
+	op = raw_input("ingrese opcion: ")
+
+	if op == str(1):
 
 		url = "http://10.253.64.96:5050"
 		response = urllib2.urlopen(url).read()
@@ -32,7 +33,7 @@ while (menu == True):
 			print "PRODUCTO: "+str(productos[it])+", CANTIDAD: "+data[1][productos[it]]
 			it = it+1
 
-	if op == 2:
+	if op == str(2):
 		
 		url = "http://10.253.64.96:5050"
 		response = urllib2.urlopen(url).read()
@@ -109,7 +110,7 @@ while (menu == True):
 
 		#it = it+1
 		
-	if op == 3:
+	if op == str(3):
 
 		url = "http://10.253.64.96:5050"
 		response = urllib2.urlopen(url).read()
@@ -145,6 +146,7 @@ while (menu == True):
 			url = 'http://10.253.64.96:5050/comprar'
 			response = urllib2.urlopen(url, params).read()
 			print "compra realizada con exito"
+
 
 		elif product == 'panela':
 			if data[1][product] == str(0):
@@ -382,7 +384,10 @@ while (menu == True):
 		else:
 			print "nombre del producto es invalido"
 
-	if op == 4:
+	else:
+		print "opcion es invalida"
+
+	if op == str(4):
 		menu = False
 
 
