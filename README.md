@@ -2,7 +2,7 @@
 final proyect of client/server subject
 
 1. execute this proyect with the next steps
-2. ejecutar este proyecto con los siguientes pasos
+1. ejecutar este proyecto con los siguientes pasos
 
 1. in console one: python bodega.py
 2. in console two: python inventario.py
