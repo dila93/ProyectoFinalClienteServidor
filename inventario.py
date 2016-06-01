@@ -14,7 +14,6 @@ productosyCantidades = {}
 stocklist = []
 listaIndividual = []
 productoss = []
-	
 productsIDS = {}
 	#productsNames = []
 productsCantidades = {}
@@ -125,7 +124,7 @@ class myHandler(BaseHTTPRequestHandler):
 				})
 			response = urllib2.urlopen(url, params).read()
 			productsCantidades[producto] = str(cantidad)
-			print "la cantidad actual de "+producto+" en el inventario es: "+productsCantidades[producto]
+			print "la cantidad actual de "+producto+" en el inventario es : "+productsCantidades[producto]
 			self.wfile.write("works")
 		
 class main:
