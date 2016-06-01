@@ -1,0 +1,8 @@
+1234, panela, 10000, panelitas s.a, 2016/12/2
+2353, arroz, 20000, arroz diana, 2016/12/3
+8742, chorizo, 30000, chorizos de santa rosa, 2017/3/3
+9836, mantequilla, 25000, mantequilla la fina, 2017/11/5
+4395, chocolate, 15000, luker, 2017/8/24
+2365, carne, 35000, carnes de res sa, 2016/12/4
+3655, arepas, 12500, arepas juana, 2016/12/12
+3948, huevos, 14500, huevos sa, 2016/9/14
